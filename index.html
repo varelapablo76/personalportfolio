@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Pablo Varela Acosta </title>
+  <meta name="description"content="Portofio de Diseño Gráfico, Diseño Web y Redes Sociales">
+  <meta name="keywords"content="HTML, BOOTSTRAP, JS, META, LINK, GRAFICO, WEB, MULTIMEDIA, SOCIAL, MEDIA, SEO, PORTFOLIO, MARKETING">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,600;0,700;1,200&display=swap"
+  rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="oldstyles.css" />
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light navbarstyle">
+      <div class="container-fluid" id="startContent">
+        <a class="navbar-brand text-white" href="#">Pablo Varela Acosta</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNavDropdown">
+          <ul class="navbar-nav d-flex justify-content-lg-end navbarstyle__dropdown">
+            <li class="nav-item dropdown navbarstyle__dropdown--item ">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Portoflio
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item navbarstyle__dropdown--subitem" data-bs-toggle="modal" data-bs-target="#modalFormacion">Formación</a>
+                </li>
+                <li>
+                  <a class="dropdown-item navbarstyle__dropdown--subitem" href="./content/graphicDesign.html">Diseño Gráfico</a>
+                </li> 
+                <li>
+                  <a class="dropdown-item navbarstyle__dropdown--subitem" href="./content/editorialDesign.html">Diseño Editorial</a>
+                </li>
+                <li>
+                  <a class="dropdown-item navbarstyle__dropdown--subitem" href="./content/socialMedia.html">Redes Sociales</a>
+                </li>
+                <li>
+                  <a class="dropdown-item navbarstyle__dropdown--subitem" href="./content/webDesign.html">Diseño Web</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./content/contact.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container d-flex flex-column justify-content-around">
+    <!-- Presentación Inicial como diseñador -->
+    <article class="artic row d-flex align-items-center ">
+      <div class="artic__content col-12 col-md-6 animate__animated animate__slideInDown">
+        <h2 class="artic__content--title">
+          Hey! Soy Pablo. <br />
+          Diseñador Gráfico
+        </h2>
+        <p class=" artic__content--text">y con otros conocimientos sobre la marcha.</p>
+      </div>
+      <a class="col-12 col-md-6" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" href="">
+        <img class="imgSize"
+          src="./img/bigHead.svg"
+          alt="Pablo, en versión animada" />
+      </a>
+    </article>
+  </main>
+  <!--  Modal Sección Formación -->
+<div class="modal fade" id="modalFormacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center">Formación Académica <span class="badge bg-secondary">New</span></h5>
+      </div>
+      <div class="modal-body container">
+        <div class="row">
+          <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3 col-3">
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#item2020">2020</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item2020-1">CoderHouse</a>
+                <a class="nav-link ms-3 my-1" href="#item2020-2">RollingCode</a>
+              </nav>
+              <a class="nav-link" href="#item2018">2018</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item2018-1">Academia Multimedia</a>
+              </nav>
+            </nav>
+          </nav>
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0"class="col-8">
+            <h5 id="#item2020-1">Diseño UX/UI</h5>
+            <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quam fuga magnam quo eius necessitatibus quos iure quis? Magni saepe illum adipisci ipsam iste nobis blanditiis error nesciunt, quam perspiciatis.</p>
+            <h5 id="#item2020-2">Desarrollo FullStack </h5>
+            <p class="text-dark">Manejo de Aplicativos de Desarrollo WEB <br> Aplicacion de Tecnica SCRUM <br> Desarrollo FrontEnd y Backend</p>
+            <h5 id="item2018-1">Motion Graphics</h5>
+            <p class="text-dark">Manejo de After Effects <br> Manejo de Cinema4D <br> Tecnicas de Motion Graphics</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- OffCanva -->
+<div class="offcanvas bg-dark offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvaBlur">
+    <div class="offcanvas-header">
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body small d-flex flex-column align-items-center">
+      <h5 class="offcanvas-title text-white" id="offcanvasBottomLabel">Puedes ver más contenido</h5>
+      <a href="https://youtu.be/o-YBDTqX_ZU">
+        <p class="text-white">ingresando en este enlace</p>
+      </a> 
+  </div>
+  </div>
+</div>
+  <!-- Menu Contenido Inferior -->
+  <footer class="navbar navfooter">
+    <div class="
+          container-fluid
+          justify-content-around justify-content-lg-between
+          align-items-baseline
+          flex-lg-row
+        ">
+      <ul class="nav justify-content-center navfooter__list">
+        <li class="nav-item navfooter__list--item">
+            <a class="nav-link button__inferior"  href="./content/editorialDesign.html">Diseño Editorial</a>
+        </li>
+        <li class="nav-item navfooter__list--item">
+          <a class="nav-link button__inferior"  href="./content/graphicDesign.html">Diseño Gráfico</a>
+        </li>
+        <li class="nav-item navfooter__list--item">
+          <a class="nav-link button__inferior"  href="./content/socialMedia.html">Redes Sociales</a>
+        </li>
+        <li class="nav-item navfooter__list--item">
+          <a class="nav-link button__inferior"  href="./content/comingSoon.html">Diseño Web</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="navbar-text text-white">Copyright 2021</li>
+      </ul>
+    </div>
+  </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+<!-- 
+Varela Acosta, Pablo
+Camada 18230 
+-->

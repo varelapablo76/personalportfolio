@@ -1,0 +1,198 @@
+$titular-Font: Nunito Sans;
+$color-primay:#0e1f30;
+$color-title: #da6c11;
+$color-second: #361a73;
+$color-thrid: #f23558;
+
+@mixin size-image($width, $height){
+width: $width;
+height: $height;
+}
+
+
+//buttons 
+.button {
+background-color: $color-title;
+color: white;
+width: 100%;
+border-radius: 3rem;
+}
+
+$portfolio :(uno: ed, dos:dg, tres:cm, cua:wd);
+
+@each $foot, $items in $portfolio {
+    .button__inferior-#{$items}{
+        background-color: orange;
+        color: white;
+        border-radius: 0.5rem;
+        margin: 0.5rem;
+    &:hover{
+    background-color: $color-thrid;
+    }
+    }
+} 
+
+.button__inferior {
+background-color: $color-second;
+color: white;
+border-radius: 0.5rem;
+margin: 0.5rem;
+    &:hover{
+    background-color: $color-thrid;
+    }
+}
+
+//Navbar Content
+
+.navbarstyle{
+    padding: 0rem 3rem 0rem 3rem;
+}
+.navbarstyle__dropdown--subitem{
+    font-weight: 700;
+}
+//Article Content
+.artic__content{
+    height: 100%;
+}
+.artic__content--title{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 0;
+    text-align: center;
+
+    @media (min-width: 768px){
+        text-align:left;
+    }
+    @media (min-width: 992px){
+        font-size: 4rem;
+        line-height: 3.5rem;
+        text-align:left;
+    }
+}
+.artic__content--text{
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 0rem;
+    text-align: center;
+
+    @media (min-width: 768px){
+        line-height: 1.3rem;
+        text-align: left;
+    }
+    @media (min-width: 992px){
+        line-height: 1.5rem;
+        margin-top: 0.5rem;
+        text-align: left;
+        }
+}
+.imgSize{
+    @include size-image(30rem,30rem )
+}
+
+//Navbar Inferior
+.navfooter__list {
+    font: $titular-Font;
+}
+.navfooter__list--item{
+    font-weight: 600;
+         color: white;
+     
+}
+//Sección Diseño Gráfico
+
+.artic__contentDG{
+    height: 30rem;
+}
+
+.artic__contentDG--title{
+    @extend .artic__content--title;
+    text-align: left;
+    }
+
+.carouselDG__public--titulo{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.carouselDG__public--texto{
+    font-size: 1.1rem;
+    color: orange;
+}
+.artic__contentDG--card{
+@include size-image (18rem,18rem)
+}
+
+$dg:1;
+@while $dg < 5 {
+    .artic__contentDG--cardImg-#{$dg} {
+        @extend .artic__contentDG--card;
+        object-fit:cover; 
+        filter: blur(2px);
+    }    
+    $dg: $dg + 1;
+}
+
+//Formulario
+.form__design{
+    width: 28rem;
+    border-radius: 2rem;
+     background-color: $color-primay;
+     color: white;
+}
+.form_design--titulo{
+    color: #da6c11;
+    font-weight: 600;
+}
+.form_design--boxcontent{
+    font-weight: 600;
+}
+
+//ContentWeb
+.contentshow{
+    font: $titular-Font;
+    color: white;
+    height: 30rem;
+    padding: 1rem;
+}
+.contentshow__img{
+    width: 500px;
+}
+.contentshow__title{
+    font-size: 2rem;
+    font-weight: 600;
+    color: $color-title;
+}
+.contentshow__text{
+    color: white;
+    text-align: left;
+    margin-left: 3rem;
+}
+//Estilo de Tarjetas
+.card__style{
+font: $titular-Font;
+color:$color-title;
+height: 28rem;
+width: 18rem;
+border-radius: 3rem;
+}
+
+.card__style--img{
+    @include size-image (18rem,12rem); 
+    object-fit: cover;
+}
+
+.card__style--body{
+background-color: $color-primay;
+border-bottom-right-radius: 0.5rem;
+border-bottom-left-radius: 0.5rem;
+
+}
+.card__style--title{
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.card__style--text{
+    font-size: 1rem;
+}
