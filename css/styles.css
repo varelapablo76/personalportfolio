@@ -95,6 +95,12 @@
   font-weight: 600;
   color: white; }
 
+.socialMedia {
+  width: 8rem; }
+
+.socialMedia__icon {
+  height: 2rem; }
+
 .artic__contentDG {
   height: 30rem; }
 
