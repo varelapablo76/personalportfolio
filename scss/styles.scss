@@ -135,8 +135,8 @@ $dg:1;
     .artic__contentDG--cardImg-#{$dg} {
         @extend .artic__contentDG--card;
         object-fit:cover; 
-        filter: blur(2px);
-    }    
+        filter: blur(5px);
+        }    
     $dg: $dg + 1;
 }
 
