@@ -1,4 +1,6 @@
-$titular-Font: Nunito Sans;
+@import 'typography';
+@import 'navbar';
+
 $color-primay:#0e1f30;
 $color-title: #da6c11;
 $color-second: #361a73;
@@ -42,14 +44,7 @@ margin: 0.5rem;
     }
 }
 
-//Navbar Content
 
-.navbarstyle{
-    padding: 0rem 3rem 0rem 3rem;
-}
-.navbarstyle__dropdown--subitem{
-    font-weight: 700;
-}
 //Article Content
 .artic__content{
     height: 100%;

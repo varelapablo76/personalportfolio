@@ -1,3 +1,27 @@
+a {
+  display: inline;
+  color: #f6f6f6;
+  font-family: "Nunito Sans";
+  text-decoration: none; }
+
+h1,
+h2 {
+  font-family: "Nunito";
+  color: white;
+  font-weight: 700; }
+
+h3,
+p,
+li {
+  font-family: "Nunito Sans";
+  color: white; }
+
+.navbarstyle {
+  padding: 0rem 3rem 0rem 3rem; }
+
+.navbarstyle__dropdown--subitem {
+  font-weight: 700; }
+
 .button {
   background-color: #da6c11;
   color: white;
@@ -44,12 +68,6 @@
   .button__inferior:hover {
     background-color: #f23558; }
 
-.navbarstyle {
-  padding: 0rem 3rem 0rem 3rem; }
-
-.navbarstyle__dropdown--subitem {
-  font-weight: 700; }
-
 .artic__content {
   height: 100%; }
 
@@ -89,7 +107,7 @@
   height: 30rem; }
 
 .navfooter__list {
-  font: Nunito Sans; }
+  font: Nunito; }
 
 .navfooter__list--item {
   font-weight: 600;
@@ -149,7 +167,7 @@
   font-weight: 600; }
 
 .contentshow {
-  font: Nunito Sans;
+  font: Nunito;
   color: white;
   height: 30rem;
   padding: 1rem; }
@@ -168,7 +186,7 @@
   margin-left: 3rem; }
 
 .card__style {
-  font: Nunito Sans;
+  font: Nunito;
   color: #da6c11;
   height: 28rem;
   width: 18rem;
