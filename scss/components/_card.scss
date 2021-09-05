@@ -1,0 +1,30 @@
+@import 'components/images';
+
+//Estilo de Tarjetas
+.card__style{
+    font: $titular-font;
+    color:$color-blanco;
+    height: 28rem;
+    width: 18rem;
+    border-radius: 3rem;
+    }
+    
+    .card__style--img{
+        @include size-image (18rem,12rem); 
+        object-fit: cover;
+    }
+    
+    .card__style--body{
+    background-color: $color-azul;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    
+    }
+    .card__style--title{
+        font-weight: 600;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .card__style--text{
+        font-size: 1rem;
+    }

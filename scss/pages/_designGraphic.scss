@@ -1,0 +1,32 @@
+//Sección Diseño Gráfico
+
+.artic__contentDG{
+    height: 100%;
+}
+
+.artic__contentDG--title{
+    @extend .artic__content--title;
+    text-align: left;
+    }
+
+.carouselDG__public--titulo{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.carouselDG__public--texto{
+    font-size: 1.1rem;
+    color: orange;
+}
+.artic__contentDG--card{
+@include size-image (18rem,18rem)
+}
+
+$dg:1;
+@while $dg < 5 {
+    .artic__contentDG--cardImg-#{$dg} {
+        @extend .artic__contentDG--card;
+        object-fit:cover; 
+        filter: blur(5px);
+        }    
+    $dg: $dg + 1;
+}

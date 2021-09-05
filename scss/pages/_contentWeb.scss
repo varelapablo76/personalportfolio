@@ -1,0 +1,20 @@
+//ContentWeb
+.contentshow{
+    font: $titular-font;
+    color: white;
+    height: 30rem;
+    padding: 1rem;
+}
+.contentshow__img{
+    width: 500px;
+}
+.contentshow__title{
+    font-size: 2rem;
+    font-weight: 600;
+    color: $color-blanco;
+}
+.contentshow__text{
+    color: white;
+    text-align: left;
+    margin-left: 3rem;
+}

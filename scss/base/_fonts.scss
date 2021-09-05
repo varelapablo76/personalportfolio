@@ -1,16 +1,16 @@
-$titular-Font: Nunito;
-$second-Font: Nunito Sans;
+$titular-font: 'Nunito';
+$second-font: 'Nunito Sans';
 
 a {
     display: inline;
     color: #f6f6f6;
-    font-family: "Nunito Sans";
+    font-family: $second-font;
     text-decoration: none;
   }
   
   h1,
   h2 {
-    font-family: "Nunito";
+    font-family: $titular-font;
     color: white;
     font-weight: 700;
   }
@@ -18,6 +18,6 @@ a {
   h3,
   p,
   li {
-    font-family: "Nunito Sans";
+    font-family: $titular-font;
     color: white;
   }
