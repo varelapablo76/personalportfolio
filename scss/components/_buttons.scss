@@ -16,7 +16,7 @@ $portfolio: (
 @each $foot, $items in $portfolio {
   .button__inferior-#{$items} {
     background-color: orange;
-    color: white;
+    color: rgb(70, 70, 70);
     border-radius: 0.5rem;
     margin: 0.5rem;
     &:hover {
@@ -26,11 +26,8 @@ $portfolio: (
 }
 
 .button__inferior {
-  background-color: $color-bordo;
-  color: white;
-  border-radius: 0.5rem;
-  margin: 0.5rem;
-  &:hover {
-    background-color: $color-violeta;
-  }
+  color:$color-blanco;
+  margin-left: -1rem;
+  font-family: $titular-font;
+  font-size: 1.2rem;
 }

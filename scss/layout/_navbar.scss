@@ -1,19 +1,33 @@
 //Navbar Content
 
+
 .navbarstyle{
     padding: 0rem 3rem 0rem 3rem;
 }
 .navbarstyle__dropdown--subitem{
     font-weight: 700;
 }
+
 //Navbar Inferior
+
+.navfooter{
+    background-color: $color-azul;
+}
+
 .navfooter__list {
-    font: $titular-font;
+    font-family:$titular-font;
 }
 .navfooter__list--item{
     font-weight: 600;
-         color: $color-blanco;
+     color: $color-blanco;
      
+}
+.navfooter__list--subitem {
+    font-family:$second-font;
+    font-weight: 300 ;
+    font-size: 0.9rem;;
+    color: $color-blanco;
+
 }
 .socialMedia{
     width: 8rem;
