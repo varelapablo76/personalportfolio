@@ -1,0 +1,33 @@
+.mainStyleGral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0rem 2rem 0rem;
+  }
+  
+  @media (min-width: 768px) {
+    main {
+      height: 40rem;
+    }
+    .mainStyleGral {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    
+    .mainStyleGral {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-right: 3rem;
+      align-items: flex-start;
+    }
+    .mainStyleGral h2 {
+      margin-left: 3rem;
+    }
+
+  }

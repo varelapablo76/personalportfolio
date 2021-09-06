@@ -8,6 +8,7 @@
     font-weight: 700;
 }
 
+
 //Navbar Inferior
 
 .navfooter{
@@ -35,3 +36,33 @@
 .socialMedia__icon{
     height: 2rem;
 }
+.footerMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+
+    .footerMenu {
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+  
+    .footerMenu {
+      text-align: center;
+      padding: 1em;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }

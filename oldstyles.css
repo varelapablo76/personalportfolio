@@ -1,28 +1,12 @@
 /* font-family: 'Nunito Sans', 200 / 600 / 700 sans-serif; */
-* { margin: 0; padding: 0; list-style: none; }
 
 /* CSS General */
 
-body {
-  background-image: linear-gradient(170deg, #103184 34%, #ff2145 100%);
-  height: 100%;
-}
 
 
 /* Secciones Landing Page */
 
-.mainStyleGral {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem 0rem 2rem 0rem;
-}
-.footerMenu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
+
 
 .offcanvaBlur{
   opacity: 0.6;
@@ -31,46 +15,7 @@ body {
 /* Textos y Contenidos */
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  main {
-    height: 40rem;
-  }
-  .mainStyleGral {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .footerMenu {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  
-  .mainStyleGral {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 3rem;
-    align-items: flex-start;
-  }
-  .mainStyleGral h2 {
-    margin-left: 3rem;
-  }
-  .footerMenu {
-    text-align: center;
-    padding: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
 
 /* Seccion Trabajos */
 .dListA {
