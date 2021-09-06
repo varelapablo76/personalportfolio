@@ -15,7 +15,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <!-- <link rel="stylesheet" href="oldstyles.css" /> -->
 <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -75,6 +74,37 @@
           alt="Pablo, en versión animada" />
     </article>
   </main>
+
+  <!-- Info de Soporte -->
+<div class="container pt-3">
+
+  <div class="d-flex flex-column flex-md-row justify-content-center justify-content-md-evenly align-items-md-baseline align-items center ">
+    <h4 class="col-12 col-md-4 text-center text-md-end text-white pb-4">Te puedo asesorar en estos campos</h4>
+    <div class="buttonsGroup d-flex flex-wrap justify-content-center justify-content-md-evenly">
+      <div class="col-6 col-md-3 dbuttons d-flex flex-column align-items-center p-2">
+        <a href=""> <img class="buttons__image p-2" src="./img/icons/designGraphic.svg" alt="Diseño Gráfico"> </a> 
+        <p class="buttons__text text-center">Diseño Gráfico</p>
+      </div>
+
+      <div class="col-6 col-md-3 buttons d-flex flex-column align-items-center p-2">
+        <a href=""> <img class="buttons__image p-2" src="./img/icons/editorialDesign.svg" alt="Diseño Editorial"> </a> 
+        <p class="buttons__text text-center">Diseño Editorial</p>
+      </div>
+
+      <div class="col-6 col-md-3 buttons d-flex flex-column align-items-center p-2">
+        <a href=""> <img class="buttons__image p-2" src="./img/icons/socialMedia.svg" alt="Redes Sociales"> </a> 
+        <p class="buttons__text text-center">Redes Sociales</p>
+      </div>
+
+      <div class="col-6 col-md-3 buttons d-flex flex-column align-items-center p-2">
+        <a href=""> <img class="buttons__image p-2" src="./img/icons/browser.svg" alt="Diseño Web"> </a> 
+        <p class="buttons__text text-center">Diseño Web</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
   <!--  Modal Sección Formación -->
 <div class="modal fade" id="modalFormacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
@@ -82,10 +112,14 @@
       <div class="modal-header">
         <h5 class="modal-title text-center">Formación Académica <span class="badge bg-secondary">New</span></h5>
       </div>
-      <div class="modal-body container">
+      <div class="modal-body ">
         <div class="row">
-          <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3 col-3">
-            <nav class="nav nav-pills flex-column">
+          <nav id="navbar-contentStudy" class="navbar navbar-light bg-light flex-column align-items-stretch p-3 col-3 sticky-top">
+            <nav class="nav nav-pills flex-column ">
+              <a class="nav-link" href="#item2021">2021</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item2021-1">CoderHouse</a>
+              </nav>
               <a class="nav-link" href="#item2020">2020</a>
               <nav class="nav nav-pills flex-column">
                 <a class="nav-link ms-3 my-1" href="#item2020-1">CoderHouse</a>
@@ -97,11 +131,16 @@
               </nav>
             </nav>
           </nav>
-          <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0"class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#navbar-contentStudy" data-bs-offset="0" tabindex="0"class="col-8">
+            <h4>2021</h4>
+            <h5 id="#item2021-1">Desarrollo Web</h5>
+            <p class="text-dark">Maquetación en baja y media fidelidad. Conceptos básicos de HTML / CSS / SASS. Uso de GIT y servidores web.</p>
+            <h4>2020</h4>
             <h5 id="#item2020-1">Diseño UX/UI</h5>
-            <p class="text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quam fuga magnam quo eius necessitatibus quos iure quis? Magni saepe illum adipisci ipsam iste nobis blanditiis error nesciunt, quam perspiciatis.</p>
+            <p class="text-dark">Conceptos básicos de Experiencia de Usuario. Desarrollo de boceto inicial, investigación de funcionalidades y requerimientos del mismo. Elaboración de protótipo en media y alta fidelidad.</p>
             <h5 id="#item2020-2">Desarrollo FullStack </h5>
             <p class="text-dark">Manejo de Aplicativos de Desarrollo WEB <br> Aplicacion de Tecnica SCRUM <br> Desarrollo FrontEnd y Backend</p>
+            <h4>2018</h4>
             <h5 id="item2018-1">Motion Graphics</h5>
             <p class="text-dark">Manejo de After Effects <br> Manejo de Cinema4D <br> Tecnicas de Motion Graphics</p>
           </div>
@@ -113,20 +152,7 @@
     </div>
   </div>
 </div>
-<!-- OffCanva
-<div class="offcanvas bg-dark offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-  <div class="offcanvaBlur">
-    <div class="offcanvas-header">
-      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body small d-flex flex-column align-items-center">
-      <h5 class="offcanvas-title text-white" id="offcanvasBottomLabel">Puedes ver más contenido</h5>
-      <a href="https://youtu.be/o-YBDTqX_ZU">
-        <p class="text-white">ingresando en este enlace</p>
-      </a> 
-  </div>
-  </div>
-</div> -->
+
 <!-- Trabajos Destacados -->
 <article class="  d-flex flex-column justify-content-around align-items-center pt-5 pb-5">
 <h3 class="py-5 artic__content--title">Trabajos Destacados</h3>
@@ -145,7 +171,7 @@
       <div class="card text-dark m-3 card__style">
         <img src="../img/social/01.png" class="card-img card__style--img " alt="Box Life Club" />
         <div class="card-img-overlay">
-          <h5 class="card-title"></h5>
+          <h5 class="card-title">Box Life Club</h5>
           <p class="card-text text-dark ">
             Equipo interdisciplinario de Salud ofreciendo un servicio completo de estilo de vida.
           </p>
@@ -157,7 +183,7 @@
         <div class="card-img-overlay">
           <h5 class="card-title">Norte Herramientas</h5>
           <p class="card-text text-dark ">
-            Catálogo de Productos de Herramientas de Ferretería
+            Catálogo de Productos<br> de Herramientas <br>de Ferretería  
           </p>
         </div>
       </div>
