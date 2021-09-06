@@ -1,17 +1,30 @@
 @import 'components/images';
 
 //Estilo de Tarjetas
+
+// .artic__contentDG{
+//     height: 70%;
+// }
+
+.artic__contentDG--title{
+    @extend .artic__content--title;
+    text-align: left;
+    }
+
 .card__style{
     font-family:$titular-font;
     color:$color-blanco;
     height: 28rem;
     width: 18rem;
-    border-radius: 3rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 0px 0px  $color-violeta;
+
     }
     
     .card__style--img{
-        @include size-image (18rem,12rem); 
+        @include size-image (18rem,20rem); 
         object-fit: cover;
+        border-radius: 1rem;
     }
     
     .card__style--body{
@@ -28,6 +41,17 @@
     .card__style--text{
         font-size: 1rem;
     }
+
+        
+$dg:1;
+@while $dg < 5 {
+    .cardStar__style--img-#{$dg} {
+        @extend .cardStar__style--img;
+        object-fit:cover; 
+        box-shadow: 15px 15px 0px 0px  $color-violeta;;
+        }    
+    $dg: $dg + 1;
+}
 
     //Estilo Card Presentacion
     .cardStar{

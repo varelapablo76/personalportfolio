@@ -63,18 +63,16 @@
   <main class="container d-flex flex-column justify-content-around">
     <!-- Presentación Inicial como diseñador -->
     <article class="artic row d-flex justify-content-center align-items-center ">
-      <div class=" col-12 col-md-6 animate__animated animate__slideInDown">
-        <h2 class="artic__content--title">
+      <div class=" col-12 col-md-6 animate__animated animate__slideInDown ">
+        <h2 class="artic__content--title text-center text-md-left">
           Hey! Soy Pablo. <br />
           Diseñador Gráfico
         </h2>
-        <p class=" artic__content--text">y con otros conocimientos sobre la marcha.</p>
+        <p class=" artic__content--text text-center text-md-left">y con otros conocimientos sobre la marcha.</p>
       </div>
-      <a class="col-12 col-md-6" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom" href="">
         <img class="imgSize"
           src="./img/bigHead.svg"
           alt="Pablo, en versión animada" />
-      </a>
     </article>
   </main>
   <!--  Modal Sección Formación -->
@@ -115,7 +113,7 @@
     </div>
   </div>
 </div>
-<!-- OffCanva -->
+<!-- OffCanva
 <div class="offcanvas bg-dark offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
   <div class="offcanvaBlur">
     <div class="offcanvas-header">
@@ -128,48 +126,53 @@
       </a> 
   </div>
   </div>
-</div>
+</div> -->
 <!-- Trabajos Destacados -->
-<div class=" artic__contentDG d-flex flex-column justify-content-around align-items-center pt-5 pb-5">
-<h3 class="pt-3 pb-3 artic__content--title">Trabajos Destacados</h3>
-  <div class="d-flex flex-column flex-md-row ">
-      <div class="card text-dark m-3">
-        <img src="../img/marcas/logo1.png" class="card-img artic__contentDG--cardImg-1" alt="Marca Usina" />
-        <div class="card-img-overlay artic__contentDG--card d-flex flex-column justify-content-end">
-          <h5 class="card-title artic__contentDG--cardTitle">Usina | Diseño Gráfico</h5>
-          <p class="card-text text-dark artic__contentDG--cardText">
+<article class="  d-flex flex-column justify-content-around align-items-center pt-5 pb-5">
+<h3 class="py-5 artic__content--title">Trabajos Destacados</h3>
+  <div class="d-flex flex-column flex-wrap flex-md-row align-items-center">
+
+      <div class="card text-dark m-3 card__style">
+        <img src="../img/marcas/logo1.png" class="card-img card__style--img " alt="Marca Usina" />
+        <div class="card-img-overlay">
+          <h5 class="card-title">Usina | Diseño Gráfico</h5>
+          <p class="card-text text-dark ">
             Marca gestionada para la institución dependiente de la Universidad Nacional de Tucumán
           </p>
         </div>
       </div>
-      <div class="card text-dark m-3">
-        <img src="../img/social/01.png" class="card-img artic__contentDG--cardImg-2" alt="Marca Usina" />
-        <div class="card-img-overlay artic__contentDG--card d-flex flex-column justify-content-end">
-          <h5 class="text-white card-title artic__contentDG--cardTitle">Box Life Club</h5>
-          <p class="text-white card-text text-dark artic__contentDG--cardText">
+
+      <div class="card text-dark m-3 card__style">
+        <img src="../img/social/01.png" class="card-img card__style--img " alt="Box Life Club" />
+        <div class="card-img-overlay">
+          <h5 class="card-title"></h5>
+          <p class="card-text text-dark ">
             Equipo interdisciplinario de Salud ofreciendo un servicio completo de estilo de vida.
           </p>
         </div>
       </div>
-      <div class="card text-dark m-3">
-        <img src="../img/edit/2.png" class="card-img artic__contentDG--cardImg-3" alt="Marca Usina" />
-        <div class="card-img-overlay artic__contentDG--card d-flex flex-column justify-content-end">
-          <h5 class=" card-title artic__contentDG--cardTitle">Norte Herramientas</h5>
-          <p class=" card-text text-dark artic__contentDG--cardText">
+
+      <div class="card text-dark m-3 card__style">
+        <img src="../img/edit/2.png" class="card-img card__style--img " alt="Marca Usina" />
+        <div class="card-img-overlay">
+          <h5 class="card-title">Norte Herramientas</h5>
+          <p class="card-text text-dark ">
             Catálogo de Productos de Herramientas de Ferretería
           </p>
         </div>
       </div>
+
     </div>
-    </div>
+    </article>
 <!-- Texto de Venta y Contacto -->
-<article class="d-flex flex-column flex-lg-row justify-content-around align-items-center container artic__content pt-5 pb-5">
+<article class="d-flex flex-column flex-md-row justify-content-around align-items-center container artic__content pt-5 pb-5">
   <img class="col-12 col-md-6 p-5" src="./img/infoExperience.svg" alt="Experiencia de Trabajo" class="imgSize">
-  <div class="contentLanding col-12 col-md-6 p-5">
-    <h3 class="artic__content--title">Un mundo más allá de lo gráfico</h3>
-    <p class="artic__content--text">En estos tiempos, una disciplina por si sola queda limitada en un campo corto de acción. Por lo que es imprescindible aprender otros conocimientos -relacionados y distintos- para lograr un trabajo de calidad en tiempos óptimos de trabajo.</p>
+  <div class=" col-12 col-md-6 py-4 p-md-2">
+    <h3 class="artic__content--title text-center text-md-start">Un mundo más allá de lo gráfico</h3>
+    <p class="artic__content--text text-center text-md-start">En estos tiempos, una disciplina por si sola queda limitada en un campo corto de acción. Por lo que es imprescindible aprender otros conocimientos -relacionados y distintos- para lograr un trabajo de calidad en tiempos óptimos de trabajo.</p>
   </div>
 </article>
+
   <!-- Menu Contenido Inferior -->
   <footer class="navbar navfooter d-flex flex-column justify-content-center">
     <div class="

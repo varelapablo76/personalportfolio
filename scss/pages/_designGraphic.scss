@@ -1,14 +1,4 @@
 //Sección Diseño Gráfico
-@import 'components/card';
-
-.artic__contentDG{
-    height: 100%;
-}
-
-.artic__contentDG--title{
-    @extend .artic__content--title;
-    text-align: left;
-    }
 
 .carouselDG__public--titulo{
     font-weight: 600;
@@ -22,12 +12,3 @@
 // @include size-image (18rem,18rem)
 // }
 
-$dg:1;
-@while $dg < 5 {
-    .cardStar__style--img-#{$dg} {
-        @extend .cardStar__style--img;
-        object-fit:cover; 
-        box-shadow: 15px 15px 0px 0px  $color-violeta;;
-        }    
-    $dg: $dg + 1;
-}

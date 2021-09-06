@@ -8,36 +8,29 @@
 .artic__content--title{
     font-weight: 700;
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: 2.5rem;
     margin-bottom: 0;
-    text-align: center;
 
-    @media (min-width: 768px){
-        text-align:left;
     }
-    @media (min-width: 992px){
-        font-size: 4rem;
-        line-height: 3.5rem;
-        text-align:left;
-    }
-}
+
 .artic__content--text{
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2rem;
-    margin-top: 0rem;
-    text-align: center;
 
-    @media (min-width: 768px){
-        line-height: 1.3rem;
-        text-align: left;
-    }
     @media (min-width: 992px){
-        line-height: 1.5rem;
         margin-top: 0.5rem;
-        text-align: left;
         }
 }
 .imgSize{
-    @include size-image(30rem,30rem )
+    @include size-image(15rem,15rem );
+
+    @media  (min-width: 768px){
+        @include size-image(25rem,25rem )
+    }
+    
+    @media  (min-width: 992px){
+        @include size-image(30rem,30rem )    
+    }
+  
 }
