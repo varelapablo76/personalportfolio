@@ -56,47 +56,61 @@
     </div>
   </nav>
 </header>
-    <section class="formContactGlobal">
-        <form class="form__design d-flex flex-column justify-content-between align-items-center">
-            <h2 class="form_design--titulo " id="contactWeb">Contacto</h2>
-           <div class="form_design--boxcontent d-flex justify-content-between align-items-baseline">
-               <div class="d-flex flex-column justify-content-around align-items-left">
-                   <label class="form_design--label" for="fPeople">Nombre y Apellido</label>
-                   <input type="text" id="fPeople" Value="Nombre y Apellido"> <br>
-               </div>
-               <div class="boxInfo" > 
-                   <label for=" fMail">Correo Electrónico</label>
-                   <input type="email" id="fMail" Value="email@email.com"> <br>
-               </div>
-           </div>
-           <div class="form_design--boxcontent d-flex justify-content-between align-items-baseline">
-               <div class="formOptions"> 
-                   <label for="fWorks">Se comunica por: </label>
-                   <select name="fWorks" id="fWorks">
-                       <option value="DG">Diseño Gráfico</option>
-                       <option value="DE">Diseño Editorial</option>
-                       <option value="DW">Diseño Web</option>
-                       <option value="RS">Redes Sociales</option>
-                   </select> <br>
-   
-               </div>
-               <div>
-                   <label for="fSuscription">¿Desea recibir un boletín de novedades?</label> <br>
-                   <label for="fbSi" id="fbSi">Si</label>
-                   <input type="radio" id="fbSi">
-                   <label for="fbNo" id="fbNo">No</label>
-                   <input type="radio" id="fbNo"> <br>
-               </div>
-           </div>
-            <div>
-                <label for="fConfirmar"> Confirmar</label>
-                <input type="checkbox" id="fConfirmar">
-            </div>
-            <div class="bottonForm">
-                <input class="btn btn-secondary" type="reset" value="Borrar">
-                <input class="btn btn-primary" type="submit" value="¡Gracias por Confiar!">
-            </div>
-            </form>
+    <section class=" formContactGlobal d-flex flex-column align-items-center py-5">
+      <h1 class="artic__contentDG--title text-center col-12 col-md-6 pb-5 " id="contactWeb">Contacto</h1>
+      <div class="container">  
+          <div class="d-flex flex-column flex-md-row justify-content-around row">
+              <form class="form__design d-flex flex-column justify-content-evenly align-items-center col-12 col-md-6">
+                <div class="container">
+      
+                  <div class="ps-3 form_design--boxcontent d-flex flex-column align-items-start row">
+                      <div class="col-10 d-flex flex-column justify-content-between align-items-left">
+                          <label class="form_design--label" for="fPeople">Nombre y Apellido</label>
+                          <input type="text" id="fPeople" Value="Nombre y Apellido"> <br>
+                      </div>
+                      <div class="col-10 boxInfo d-flex flex-column" > 
+                          <label for=" fMail">Correo Electrónico</label>
+                          <input type="email" id="fMail" Value="email@email.com"> <br>
+                      </div>
+                  </div>
+                  <div class="ps-3 form_design--boxcontent d-flex flex-column align-items-baseline row">
+                      <div class="formOptions d-flex flex-column align-items-start "> 
+                          <label for="fWorks">Se comunica por: </label>
+                          <select class="col-10" name="fWorks" id="fWorks">
+                              <option value="DG">Diseño Gráfico</option>
+                              <option value="DE">Diseño Editorial</option>
+                              <option value="DW">Diseño Web</option>
+                              <option value="RS">Redes Sociales</option>
+                          </select> <br>
+                          </div>
+                      <div>
+                          <label for="fSuscription">¿Desea recibir un boletín de novedades?</label> <br>
+                          <div class="formOptions__opt">
+                            <label for="fbSi" id="fbSi">Si</label>
+                            <input type="radio" id="fbSi">
+                            <label for="fbNo" id="fbNo">No</label>
+                            <input type="radio" id="fbNo"> <br>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="ps-3 bottonForm">
+                     <div class="py-3 ">
+                         <label for="fConfirmar"> Confirmar</label>
+                         <input type="checkbox" id="fConfirmar">
+                     </div>
+                       <input class="col-3 btn btn-secondary" type="reset" value="Borrar">
+                       <input class="col-7 btn btn-colorTwo text-white" type="submit" value="¡Gracias por Confiar!">
+                   </div>
+      
+                </div>
+              </form>
+              <img class="imgSize col-12 col-md-6" src="../img/mailContact.svg" alt="">
+          </div>
+
+
+
+      </div>
+
     </section>
     <footer class="navbar navfooter d-flex flex-column justify-content-center">
       <div class="

@@ -1,12 +1,15 @@
 //Formulario
 .form__design{
-    width: 28rem;
+    width: 25rem;
+    height: 30rem;
     border-radius: 2rem;
-     background-color: $color-azul;
-     color: white;
+     background-color: $color-azulOp;
+     color: $color-blanco;
+
+     
 }
 .form_design--titulo{
-    color: #da6c11;
+    color: $color-blanco;
     font-weight: 600;
 }
 .form_design--boxcontent{

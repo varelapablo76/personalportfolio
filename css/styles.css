@@ -188,6 +188,9 @@ p {
   font-weight: 600;
   padding: 0.7rem 0rem 1rem 0rem; }
 
+.btn-colorTwo {
+  background-color: #A62662; }
+
 .imgArticle {
   height: 360px;
   width: 480px;
@@ -263,13 +266,14 @@ p {
     filter: blur 2px; }
 
 .form__design {
-  width: 28rem;
+  width: 25rem;
+  height: 30rem;
   border-radius: 2rem;
-  background-color: #261859;
-  color: white; }
+  background-color: #26185930;
+  color: #ffffff; }
 
 .form_design--titulo {
-  color: #da6c11;
+  color: #ffffff;
   font-weight: 600; }
 
 .form_design--boxcontent {
