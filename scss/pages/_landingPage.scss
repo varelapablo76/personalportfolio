@@ -1,3 +1,7 @@
+article {
+  padding:5rem 0rem 5rem 0rem;
+}
+
 .mainStyleGral {
     display: flex;
     flex-direction: column;
@@ -30,4 +34,8 @@
       margin-left: 3rem;
     }
 
+  }
+  .heroHeader {
+    padding-top: 5rem ;
+    padding-bottom: 5rem;
   }

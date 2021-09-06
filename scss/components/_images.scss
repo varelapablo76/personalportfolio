@@ -3,3 +3,11 @@
     height: $height;
     }
     
+    .imgArticle {
+        height: 360px;
+        width: 480px;
+        background-color: $color-blanco;
+        box-shadow: 17px 19px 0px 0px  $color-violeta;
+        border-radius: 15px;
+        object-fit: cover;
+      }    

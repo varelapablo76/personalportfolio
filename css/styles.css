@@ -29,6 +29,14 @@ p {
   font-family: "Nunito Sans", sans-serif;
   color: #ffffff; }
 
+.imgArticle {
+  height: 360px;
+  width: 480px;
+  background-color: #ffffff;
+  box-shadow: 17px 19px 0px 0px #A62662;
+  border-radius: 15px;
+  object-fit: cover; }
+
 .card__style {
   font-family: "Nunito", sans-serif;
   color: #ffffff;
@@ -53,6 +61,26 @@ p {
 
 .card__style--text {
   font-size: 1rem; }
+
+.cardStar {
+  height: 10rem;
+  width: 10rem;
+  background-color: #ffffff; }
+
+.cardStar__style--img, .cardStar__style--img-1, .cardStar__style--img-2, .cardStar__style--img-3, .cardStar__style--img-4 {
+  height: 10rem;
+  width: 10rem; }
+
+.cardStar__style--title {
+  font-family: "Nunito", sans-serif;
+  font-size: 0.9rem; }
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: end; }
+  .card-img-overlay:hover {
+    filter: blur 2px; }
 
 .artic__content {
   height: 100%; }
@@ -136,6 +164,14 @@ p {
   font-family: "Nunito", sans-serif;
   font-size: 1.2rem; }
 
+.imgArticle {
+  height: 360px;
+  width: 480px;
+  background-color: #ffffff;
+  box-shadow: 17px 19px 0px 0px #A62662;
+  border-radius: 15px;
+  object-fit: cover; }
+
 .card__style {
   font-family: "Nunito", sans-serif;
   color: #ffffff;
@@ -161,6 +197,26 @@ p {
 .card__style--text {
   font-size: 1rem; }
 
+.cardStar {
+  height: 10rem;
+  width: 10rem;
+  background-color: #ffffff; }
+
+.cardStar__style--img, .cardStar__style--img-1, .cardStar__style--img-2, .cardStar__style--img-3, .cardStar__style--img-4 {
+  height: 10rem;
+  width: 10rem; }
+
+.cardStar__style--title {
+  font-family: "Nunito", sans-serif;
+  font-size: 0.9rem; }
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: end; }
+  .card-img-overlay:hover {
+    filter: blur 2px; }
+
 .form__design {
   width: 28rem;
   border-radius: 2rem;
@@ -173,6 +229,14 @@ p {
 
 .form_design--boxcontent {
   font-weight: 600; }
+
+.imgArticle {
+  height: 360px;
+  width: 480px;
+  background-color: #ffffff;
+  box-shadow: 17px 19px 0px 0px #A62662;
+  border-radius: 15px;
+  object-fit: cover; }
 
 .navbarstyle {
   padding: 0rem 3rem 0rem 3rem; }
@@ -245,6 +309,59 @@ p {
   text-align: left;
   margin-left: 3rem; }
 
+.imgArticle {
+  height: 360px;
+  width: 480px;
+  background-color: #ffffff;
+  box-shadow: 17px 19px 0px 0px #A62662;
+  border-radius: 15px;
+  object-fit: cover; }
+
+.card__style {
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  height: 28rem;
+  width: 18rem;
+  border-radius: 3rem; }
+
+.card__style--img {
+  width: 18rem;
+  height: 12rem;
+  object-fit: cover; }
+
+.card__style--body {
+  background-color: #261859;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem; }
+
+.card__style--title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center; }
+
+.card__style--text {
+  font-size: 1rem; }
+
+.cardStar {
+  height: 10rem;
+  width: 10rem;
+  background-color: #ffffff; }
+
+.cardStar__style--img, .cardStar__style--img-1, .cardStar__style--img-2, .cardStar__style--img-3, .cardStar__style--img-4 {
+  height: 10rem;
+  width: 10rem; }
+
+.cardStar__style--title {
+  font-family: "Nunito", sans-serif;
+  font-size: 0.9rem; }
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: end; }
+  .card-img-overlay:hover {
+    filter: blur 2px; }
+
 .artic__contentDG {
   height: 100%; }
 
@@ -259,25 +376,24 @@ p {
   font-size: 1.1rem;
   color: orange; }
 
-.artic__contentDG--card, .artic__contentDG--cardImg-1, .artic__contentDG--cardImg-2, .artic__contentDG--cardImg-3, .artic__contentDG--cardImg-4 {
-  width: 18rem;
-  height: 18rem; }
-
-.artic__contentDG--cardImg-1 {
+.cardStar__style--img-1 {
   object-fit: cover;
-  filter: blur(5px); }
+  box-shadow: 15px 15px 0px 0px #A62662; }
 
-.artic__contentDG--cardImg-2 {
+.cardStar__style--img-2 {
   object-fit: cover;
-  filter: blur(5px); }
+  box-shadow: 15px 15px 0px 0px #A62662; }
 
-.artic__contentDG--cardImg-3 {
+.cardStar__style--img-3 {
   object-fit: cover;
-  filter: blur(5px); }
+  box-shadow: 15px 15px 0px 0px #A62662; }
 
-.artic__contentDG--cardImg-4 {
+.cardStar__style--img-4 {
   object-fit: cover;
-  filter: blur(5px); }
+  box-shadow: 15px 15px 0px 0px #A62662; }
+
+article {
+  padding: 5rem 0rem 5rem 0rem; }
 
 .mainStyleGral {
   display: flex;
@@ -303,3 +419,7 @@ p {
     align-items: flex-start; }
   .mainStyleGral h2 {
     margin-left: 3rem; } }
+
+.heroHeader {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }

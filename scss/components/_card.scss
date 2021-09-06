@@ -28,3 +28,32 @@
     .card__style--text{
         font-size: 1rem;
     }
+
+    //Estilo Card Presentacion
+    .cardStar{
+        height: 10rem;
+        width: 10rem;
+        background-color: $color-blanco;
+    }
+
+    .cardStar__style--img{
+        height: 10rem;
+        width: 10rem;
+    }
+    .cardStar__style--title{
+        font-family: $titular-font;
+        font-size: 0.9rem;
+
+    }
+
+    .card-img-overlay{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+            &:hover {
+                filter: blur (2px);
+            }
+    }
+    
+    
+    

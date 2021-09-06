@@ -1,4 +1,5 @@
 //Sección Diseño Gráfico
+@import 'components/card';
 
 .artic__contentDG{
     height: 100%;
@@ -17,16 +18,16 @@
     font-size: 1.1rem;
     color: orange;
 }
-.artic__contentDG--card{
-@include size-image (18rem,18rem)
-}
+// .artic__contentDG--card{
+// @include size-image (18rem,18rem)
+// }
 
 $dg:1;
 @while $dg < 5 {
-    .artic__contentDG--cardImg-#{$dg} {
-        @extend .artic__contentDG--card;
+    .cardStar__style--img-#{$dg} {
+        @extend .cardStar__style--img;
         object-fit:cover; 
-        filter: blur(5px);
+        box-shadow: 15px 15px 0px 0px  $color-violeta;;
         }    
     $dg: $dg + 1;
 }
