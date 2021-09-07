@@ -1,9 +1,47 @@
-<?xml version='1.0' encoding='UTF-8'?><urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-<url><loc>http://127.0.0.1:5501/</loc></url>
-<url><loc>http://127.0.0.1:5501/content/comingSoon.html</loc></url>
-<url><loc>http://127.0.0.1:5501/content/contact.html</loc></url>
-<url><loc>http://127.0.0.1:5501/content/editorialDesign.html</loc></url>
-<url><loc>http://127.0.0.1:5501/content/graphicDesign.html</loc></url>
-<url><loc>http://127.0.0.1:5501/content/socialMedia.html</loc></url>
-<url><loc>http://127.0.0.1:5501/content/webDesign.html</loc></url>
-<url><loc>http://127.0.0.1:5501/index.html</loc></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://varelapablo76.github.io/personalportfolio/index.html</loc>
+  <lastmod>2021-09-07T01:07:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://varelapablo76.github.io/personalportfolio/content/graphicDesign.html</loc>
+  <lastmod>2021-09-07T01:07:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://varelapablo76.github.io/personalportfolio/content/editorialDesign.html</loc>
+  <lastmod>2021-09-07T01:07:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://varelapablo76.github.io/personalportfolio/content/socialMedia.html</loc>
+  <lastmod>2021-09-07T01:07:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://varelapablo76.github.io/personalportfolio/content/webDesign.html</loc>
+  <lastmod>2021-09-07T01:07:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://varelapablo76.github.io/personalportfolio/content/contact.html</loc>
+  <lastmod>2021-09-07T01:07:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://varelapablo76.github.io/personalportfolio/content/comingSoon.html</loc>
+  <lastmod>2021-09-07T01:07:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
