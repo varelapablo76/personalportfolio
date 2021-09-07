@@ -54,15 +54,17 @@ $dg:1;
 }
 
     //Estilo Card Presentacion
-    .cardStar{
+    .cardStar {
         height: 10rem;
         width: 10rem;
         background-color: $color-blanco;
+
     }
 
     .cardStar__style--img{
         height: 10rem;
         width: 10rem;
+ 
     }
     .cardStar__style--title{
         font-family: $titular-font;
@@ -73,6 +75,7 @@ $dg:1;
     .card-img-overlay{
         display: flex;
         flex-direction: column;
+        background-color: $color-blancoOp;
         justify-content: end;
             &:hover {
                 filter: blur (2px);

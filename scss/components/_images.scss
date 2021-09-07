@@ -1,14 +1,21 @@
 @mixin size-image($width, $height){
-    width: $width;
     height: $height;
+    width: $width;
     }
     
     .imgArticle {
-        height: 360px;
-        width: 480px;
+      @include size-image(22rem,14rem );
         background-color: $color-blanco;
         box-shadow: 17px 19px 0px 0px  $color-violeta;
         border-radius: 15px;
         object-fit: cover;
+
+        @media  (min-width: 768px){
+          @include size-image(28rem,18rem )
+      }
+      
+      @media  (min-width: 992px){
+          @include size-image(30rem,20rem )    
+      }
       }    
 

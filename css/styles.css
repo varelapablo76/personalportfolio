@@ -30,12 +30,20 @@ p {
   color: #ffffff; }
 
 .imgArticle {
-  height: 360px;
-  width: 480px;
+  height: 14rem;
+  width: 22rem;
   background-color: #ffffff;
   box-shadow: 17px 19px 0px 0px #A62662;
   border-radius: 15px;
   object-fit: cover; }
+  @media (min-width: 768px) {
+    .imgArticle {
+      height: 18rem;
+      width: 28rem; } }
+  @media (min-width: 992px) {
+    .imgArticle {
+      height: 20rem;
+      width: 30rem; } }
 
 .artic__contentDG--title {
   text-align: left; }
@@ -49,8 +57,8 @@ p {
   box-shadow: 10px 10px 0px 0px #A62662; }
 
 .card__style--img {
-  width: 18rem;
   height: 20rem;
+  width: 18rem;
   object-fit: cover;
   border-radius: 1rem; }
 
@@ -99,6 +107,7 @@ p {
 .card-img-overlay {
   display: flex;
   flex-direction: column;
+  background-color: #ffffff95;
   justify-content: end; }
   .card-img-overlay:hover {
     filter: blur 2px; }
@@ -121,16 +130,16 @@ p {
       margin-top: 0.5rem; } }
 
 .imgSize {
-  width: 15rem;
-  height: 15rem; }
+  height: 15rem;
+  width: 15rem; }
   @media (min-width: 768px) {
     .imgSize {
-      width: 25rem;
-      height: 25rem; } }
+      height: 25rem;
+      width: 25rem; } }
   @media (min-width: 992px) {
     .imgSize {
-      width: 30rem;
-      height: 30rem; } }
+      height: 30rem;
+      width: 30rem; } }
 
 .button {
   background-color: #261859;
@@ -192,12 +201,20 @@ p {
   background-color: #A62662; }
 
 .imgArticle {
-  height: 360px;
-  width: 480px;
+  height: 14rem;
+  width: 22rem;
   background-color: #ffffff;
   box-shadow: 17px 19px 0px 0px #A62662;
   border-radius: 15px;
   object-fit: cover; }
+  @media (min-width: 768px) {
+    .imgArticle {
+      height: 18rem;
+      width: 28rem; } }
+  @media (min-width: 992px) {
+    .imgArticle {
+      height: 20rem;
+      width: 30rem; } }
 
 .artic__contentDG--title {
   text-align: left; }
@@ -211,8 +228,8 @@ p {
   box-shadow: 10px 10px 0px 0px #A62662; }
 
 .card__style--img {
-  width: 18rem;
   height: 20rem;
+  width: 18rem;
   object-fit: cover;
   border-radius: 1rem; }
 
@@ -261,6 +278,7 @@ p {
 .card-img-overlay {
   display: flex;
   flex-direction: column;
+  background-color: #ffffff95;
   justify-content: end; }
   .card-img-overlay:hover {
     filter: blur 2px; }
@@ -280,12 +298,20 @@ p {
   font-weight: 600; }
 
 .imgArticle {
-  height: 360px;
-  width: 480px;
+  height: 14rem;
+  width: 22rem;
   background-color: #ffffff;
   box-shadow: 17px 19px 0px 0px #A62662;
   border-radius: 15px;
   object-fit: cover; }
+  @media (min-width: 768px) {
+    .imgArticle {
+      height: 18rem;
+      width: 28rem; } }
+  @media (min-width: 992px) {
+    .imgArticle {
+      height: 20rem;
+      width: 30rem; } }
 
 .navbarstyle {
   padding: 0rem 3rem 0rem 3rem; }
@@ -367,7 +393,7 @@ p {
   color: orange; }
 
 article {
-  padding: 5rem 0rem 5rem 5rem; }
+  padding: 5rem 0rem 5rem 0rem; }
 
 .mainStyleGral {
   display: flex;
