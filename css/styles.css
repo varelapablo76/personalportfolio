@@ -77,24 +77,29 @@ p {
 
 .cardStar__style--img-1 {
   object-fit: cover;
-  box-shadow: 15px 15px 0px 0px #A62662; }
+  box-shadow: 15px 15px 0px 0px #A62662;
+  border-radius: 1rem; }
 
 .cardStar__style--img-2 {
   object-fit: cover;
-  box-shadow: 15px 15px 0px 0px #A62662; }
+  box-shadow: 15px 15px 0px 0px #A62662;
+  border-radius: 1rem; }
 
 .cardStar__style--img-3 {
   object-fit: cover;
-  box-shadow: 15px 15px 0px 0px #A62662; }
+  box-shadow: 15px 15px 0px 0px #A62662;
+  border-radius: 1rem; }
 
 .cardStar__style--img-4 {
   object-fit: cover;
-  box-shadow: 15px 15px 0px 0px #A62662; }
+  box-shadow: 15px 15px 0px 0px #A62662;
+  border-radius: 1rem; }
 
 .cardStar {
   height: 10rem;
   width: 10rem;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  border-radius: 1rem; }
 
 .cardStar__style--img, .cardStar__style--img-1, .cardStar__style--img-2, .cardStar__style--img-3, .cardStar__style--img-4 {
   height: 10rem;
@@ -105,12 +110,8 @@ p {
   font-size: 0.9rem; }
 
 .card-img-overlay {
-  display: flex;
-  flex-direction: column;
   background-color: #ffffff95;
-  justify-content: end; }
-  .card-img-overlay:hover {
-    filter: blur 2px; }
+  border-radius: 1rem; }
 
 .artic__content {
   height: 100%; }
@@ -248,24 +249,29 @@ p {
 
 .cardStar__style--img-1 {
   object-fit: cover;
-  box-shadow: 15px 15px 0px 0px #A62662; }
+  box-shadow: 15px 15px 0px 0px #A62662;
+  border-radius: 1rem; }
 
 .cardStar__style--img-2 {
   object-fit: cover;
-  box-shadow: 15px 15px 0px 0px #A62662; }
+  box-shadow: 15px 15px 0px 0px #A62662;
+  border-radius: 1rem; }
 
 .cardStar__style--img-3 {
   object-fit: cover;
-  box-shadow: 15px 15px 0px 0px #A62662; }
+  box-shadow: 15px 15px 0px 0px #A62662;
+  border-radius: 1rem; }
 
 .cardStar__style--img-4 {
   object-fit: cover;
-  box-shadow: 15px 15px 0px 0px #A62662; }
+  box-shadow: 15px 15px 0px 0px #A62662;
+  border-radius: 1rem; }
 
 .cardStar {
   height: 10rem;
   width: 10rem;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  border-radius: 1rem; }
 
 .cardStar__style--img, .cardStar__style--img-1, .cardStar__style--img-2, .cardStar__style--img-3, .cardStar__style--img-4 {
   height: 10rem;
@@ -276,12 +282,8 @@ p {
   font-size: 0.9rem; }
 
 .card-img-overlay {
-  display: flex;
-  flex-direction: column;
   background-color: #ffffff95;
-  justify-content: end; }
-  .card-img-overlay:hover {
-    filter: blur 2px; }
+  border-radius: 1rem; }
 
 .form__design {
   width: 25rem;

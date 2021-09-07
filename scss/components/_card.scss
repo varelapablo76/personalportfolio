@@ -48,7 +48,8 @@ $dg:1;
     .cardStar__style--img-#{$dg} {
         @extend .cardStar__style--img;
         object-fit:cover; 
-        box-shadow: 15px 15px 0px 0px  $color-violeta;;
+        box-shadow: 15px 15px 0px 0px  $color-violeta;
+        border-radius:1rem;
         }    
     $dg: $dg + 1;
 }
@@ -58,7 +59,7 @@ $dg:1;
         height: 10rem;
         width: 10rem;
         background-color: $color-blanco;
-
+        border-radius:1rem;
     }
 
     .cardStar__style--img{
@@ -73,13 +74,8 @@ $dg:1;
     }
 
     .card-img-overlay{
-        display: flex;
-        flex-direction: column;
         background-color: $color-blancoOp;
-        justify-content: end;
-            &:hover {
-                filter: blur (2px);
-            }
+        border-radius: 1rem;
     }
     
     
